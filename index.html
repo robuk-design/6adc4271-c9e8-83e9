@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Cómo abrir en el navegador la guía de Robux de Zapitrix desde TikTok.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Guía de Robux 2026 | Zapitrix">
+  <meta property="og:description" content="Abre la guía en Safari o Chrome para consultarla en Zapitrix.">
+  <meta name="color-scheme" content="light">
+  <title>Abrir en navegador | Zapitrix</title>
+  <style>
+    :root {font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#151719;background:#fff;font-synthesis:none}
+    *{box-sizing:border-box} html{min-height:100%;} body{margin:0;min-height:100vh;background:#fff;} button,a{-webkit-tap-highlight-color:transparent}
+    .shell{max-width:550px;margin:0 auto;padding:0 15px 32px;position:relative}
+    .topbar{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #f0f1f3;height:48px;margin:0 -15px;padding:0 15px}
+    .secure{display:flex;gap:8px;align-items:center;font-weight:700;font-size:12px;color:#282c30}
+    .shield{width:14px;height:14px;fill:#27be70;flex-shrink:0}
+    .pointer{display:flex;align-items:center;gap:4px;position:relative}
+    .hint-pill{background:#15181e;color:#fff;box-shadow:0 2px 7px #0002;border:0;border-radius:21px;padding:7px 12px;font-size:10px;font-weight:900;letter-spacing:.2px;cursor:pointer;white-space:nowrap;animation:breathe 2s infinite}
+    .pointer svg{width:33px;height:31px;transform:rotate(16deg);margin-right:4px}
+    .hero{text-align:center;padding:19px 0 14px}
+    .roblox-mark{width:46px;height:46px;border-radius:12px;display:inline-flex;align-items:center;justify-content:center;filter:drop-shadow(0 3px 6px #2754de40)}
+    .roblox-mark svg{width:43px;height:43px}
+    h1{font-size:21px;letter-spacing:-.65px;margin:12px 0 4px;font-weight:850;line-height:1.23}
+    .sub{color:#85878b;font-size:12px;margin:0}
+    .guide{border:1px solid #ededf0;border-radius:15px;overflow:hidden;box-shadow:0 2px 9px #11111108;background:#fff}
+    .guide-top{min-height:28px;padding:5px 9px;display:flex;align-items:center;justify-content:space-between;background:#f8f9fa}
+    .tag{display:inline-flex;gap:5px;align-items:center;background:#242526;color:#fff;font-size:9px;font-weight:900;letter-spacing:.2px;border-radius:20px;padding:5px 9px}
+    .tag:before{content:"";width:5px;height:5px;border-radius:50%;background:#19d580}
+    .three-dots{font-size:19px;letter-spacing:1px;font-weight:800;line-height:12px}
+    .illustration{position:relative;height:253px;background:#fafafb;overflow:hidden;border-bottom:1px solid #edeef0}
+    .mock-browser{position:absolute;top:15px;left:15px;right:15px;bottom:14px;border:1px solid #e2e4e7;background:#fff;border-radius:12px;overflow:hidden}
+    .mock-head{height:34px;border-bottom:1px solid #e7e9ed;display:flex;align-items:center;justify-content:space-between;padding:0 12px;font-size:11px;font-weight:750;color:#2c2f34}
+    .mock-title{display:flex;align-items:center;gap:6px}.globe{color:#637083;font-size:16px}
+    .mock-dots{font-size:18px;letter-spacing:1px;font-weight:900}
+    .mock-blank{height:calc(100% - 34px);background:linear-gradient(180deg,#fff,#f8f9fa)}
+    .mock-menu{position:absolute;left:18px;right:18px;bottom:21px;border-radius:14px;background:#fff;box-shadow:0 6px 28px #12151d1f;z-index:3;overflow:hidden;border:1px solid #efefef;transform-origin:top center;animation:menuCycle 5.4s ease-in-out infinite}
+    .mock-row{height:47px;border-bottom:1px solid #e9e9ec;display:flex;align-items:center;gap:11px;padding:0 14px;font-size:13px;color:#24272b;font-weight:500}
+    .mock-row:last-child{border-bottom:0}.mock-row svg{width:16px;height:16px;stroke:#232323;flex-shrink:0}
+    .mock-row.open{font-weight:650;background:#f7fbff}
+    .red-arrow{position:absolute;z-index:5;width:83px;height:83px;right:19px;top:19px;filter:drop-shadow(0 2px 1px #0006);animation:arrowCycle 5.4s ease-in-out infinite}
+    .red-arrow svg{width:100%;height:100%;overflow:visible}
+    .red-arrow .redbody{fill:#fb3444;stroke:#242424;stroke-width:3;stroke-linejoin:round}
+    .steps{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:12px 0}
+    .step{display:flex;align-items:center;gap:8px;border:1px solid #eceef0;border-radius:10px;background:#fff;padding:9px 7px;min-height:48px}
+    .num{display:flex;align-items:center;justify-content:center;background:#2484ee;color:white;border-radius:50%;font-size:12px;font-weight:800;width:22px;height:22px;flex-shrink:0}
+    .step b{display:block;font-size:11px;letter-spacing:-.1px}.step small{display:block;font-size:9px;color:#93969b;margin-top:3px}
+    .waiting{background:#ebf6ff;color:#4185ae;border:1px solid #d6ebfb;border-radius:9px;padding:9px;text-align:center;font-size:11px;font-weight:700;display:flex;justify-content:center;align-items:center;gap:8px}
+    .spinner{height:12px;width:12px;border-radius:50%;border:2px solid #bcd6e8;border-top-color:#2087d2;animation:spin 1s linear infinite}
+    .footer{text-align:center;font-size:11px;color:#8a8f98;margin-top:20px;line-height:1.7}
+    .footer a{color:#377fd0;text-decoration:none;font-weight:650}
+    .visit{display:inline-block;margin-top:11px;font-weight:750;color:#1568bf;background:#edf6ff;border-radius:10px;border:1px solid #d9ebff;padding:10px 14px;text-decoration:none;font-size:12px}
+    .toast{position:fixed;left:50%;bottom:26px;transform:translate(-50%,20px);z-index:20;background:#21242b;color:white;padding:12px 16px;border-radius:12px;font-size:12px;font-weight:600;max-width:calc(100vw - 30px);width:max-content;text-align:center;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s}
+    .toast.show{opacity:1;transform:translate(-50%,0)}
+    #externalMessage{display:none}
+    @keyframes breathe{50%{transform:scale(1.04)}}@keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes menuCycle{0%,10%{opacity:0;transform:translateY(7px) scale(.98)}18%,61%{opacity:1;transform:translateY(0) scale(1)}69%,100%{opacity:0;transform:translateY(7px) scale(.98)}}
+    @keyframes arrowCycle{0%,10%,69%,100%{top:6px;right:9px;transform:rotate(-39deg) scale(.9)}18%,61%{top:125px;right:19px;transform:rotate(145deg) scale(1)}}
+    @media (max-width:350px){h1{font-size:19px}.illustration{height:224px}.mock-menu{bottom:11px}.mock-row{height:41px}.red-arrow{width:72px;height:72px}}
+    @media (min-width:600px){.shell{padding-top:10px}.illustration{height:280px}.red-arrow{right:43px!important}}
+    @media (prefers-reduced-motion:reduce){.hint-pill,.mock-menu,.red-arrow,.spinner{animation:none}.mock-menu{opacity:1;transform:none}.red-arrow{top:125px;right:19px;transform:rotate(145deg)}}
+  </style>
+</head>
+<body>
+<main class="shell" aria-label="Instrucciones para abrir enlace de Zapitrix en navegador">
+  <div class="topbar">
+    <div class="secure"><svg class="shield" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5 21 6v6.5c0 5.3-3.7 8.5-9 10-5.3-1.5-9-4.7-9-10V6l9-3.5Z"/><path d="m8 12.3 2.6 2.5 5.5-5.7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><span>Enlace a Zapitrix</span></div>
+    <div class="pointer"><button type="button" class="hint-pill" id="tapHint">PULSA AQUÍ</button><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M5 30Q15 36 33 8" stroke="#202329" stroke-width="2.6" stroke-linecap="round"/><path d="m25 11 8-4 1 10" stroke="#202329" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+  </div>
+  <section class="hero">
+    <div class="roblox-mark" aria-label="Temática Roblox"><svg viewBox="0 0 72 72" role="img" aria-hidden="true"><g transform="translate(36 36) rotate(18)"><rect x="-25" y="-25" width="50" height="50" rx="8" fill="#2853f0"/><rect x="-12" y="-12" width="24" height="24" fill="white"/><rect x="-5.5" y="-5.5" width="11" height="11" fill="#2853f0"/></g></svg></div>
+    <h1>Pulsa ••• y abre en navegador</h1>
+    <p class="sub">Selecciona “<span id="browserName">Abrir en Safari</span>”.</p>
+  </section>
+  <section class="guide" aria-label="Guía animada de apertura">
+    <div class="guide-top"><span class="tag">GUÍA ANIMADA</span><span class="three-dots" aria-hidden="true">•••</span></div>
+    <div class="illustration">
+      <div class="mock-browser"><div class="mock-head"><span class="mock-title"><span class="globe">◉</span> Vista previa de TikTok</span><span class="mock-dots">•••</span></div><div class="mock-blank"></div></div>
+      <div class="mock-menu" aria-hidden="true">
+        <div class="mock-row"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M5 20V4M5 5c3-3 7 3 12 0v10c-5 3-9-3-12 0"/></svg>Denunciar</div>
+        <div class="mock-row open"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="m9 15 2-6 5-2-2 6-5 2Z"/></svg><span id="mockBrowserName">Abrir en Safari</span></div>
+        <div class="mock-row"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M8 9H5a3 3 0 0 0 0 6h5m4 0h5a3 3 0 0 0 0-6h-5m-7 3h10"/></svg>Copiar enlace</div>
+      </div>
+      <div class="red-arrow" aria-hidden="true"><svg viewBox="0 0 80 80"><path class="redbody" d="M8 31 42 31 42 12 74 40 42 69 42 50 8 50Z"/></svg></div>
+    </div>
+  </section>
+  <div class="steps" aria-label="Pasos">
+    <div class="step"><span class="num">1</span><div><b>Pulsa •••</b><small>Esquina superior</small></div></div>
+    <div class="step"><span class="num">2</span><div><b id="stepBrowserName">Abrir en Safari</b><small>En el menú</small></div></div>
+  </div>
+  <div class="waiting" id="waiting"><span class="spinner" aria-hidden="true"></span><span>Esperando al navegador...</span></div>
+  <div id="externalMessage" class="waiting"><span class="spinner" aria-hidden="true"></span>Abriendo Zapitrix...</div>
+  <div class="footer">
+    <span>Guía informativa de Zapitrix · No afiliada a Roblox</span>
+    <div><a class="visit" id="visitLink" href="https://zapitrix.blogzapit.com/los-mejores-metodos-para-ganar-robux-gratis-en-2026-actualizado/" rel="noopener noreferrer">Continuar a Zapitrix ↗</a></div>
+  </div>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite">En TikTok, pulsa los tres puntos de arriba y elige abrir en el navegador.</div>
+<script>
+(function(){
+  'use strict';
+  // ÚNICO DESTINO: el artículo solicitado de Zapitrix.
+  const DESTINATION = 'https://zapitrix.blogzapit.com/los-mejores-metodos-para-ganar-robux-gratis-en-2026-actualizado/';
+  const ua = navigator.userAgent || '';
+  const isTikTokBrowser = /tiktok|musical_ly|bytedancewebview|trill/i.test(ua);
+  const isOtherInAppBrowser = /instagram|fban|fbav|fb_iab|snapchat/i.test(ua);
+  const isInAppBrowser = isTikTokBrowser || isOtherInAppBrowser;
+  const isiOS = /iPhone|iPad|iPod/i.test(ua);
+  const browser = isiOS ? 'Abrir en Safari' : 'Abrir en navegador';
+  ['browserName','mockBrowserName','stepBrowserName'].forEach(id => document.getElementById(id).textContent = browser);
+  document.getElementById('visitLink').href = DESTINATION;
+  const toast = document.getElementById('toast');
+  let toastTimeout;
+  document.getElementById('tapHint').addEventListener('click', function(){
+    toast.textContent = 'Pulsa los tres puntos (•••) en la esquina superior de TikTok y selecciona «'+browser+'».';
+    toast.classList.add('show');
+    clearTimeout(toastTimeout);
+    toastTimeout = setTimeout(() => toast.classList.remove('show'), 5000);
+  });
+  // En Safari / Chrome reales, abrir el artículo automáticamente.
+  // El parámetro ?preview=1 muestra la maqueta durante pruebas sin redirigir.
+  const query = new URLSearchParams(location.search);
+  if (!isInAppBrowser && !query.has('preview')) {
+    document.getElementById('waiting').style.display='none';
+    document.getElementById('externalMessage').style.display='flex';
+    setTimeout(() => location.replace(DESTINATION), 850);
+  }
+})();
+</script>
+</body>
+</html>
